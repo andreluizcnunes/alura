@@ -180,6 +180,10 @@ hr {
   margin-bottom: 3rem;
 }
 
+#anuncio-vagas img {
+  border-radius: 8px;
+}
+
 .container-vagas {
   width: 75rem;
   display: flex;
@@ -292,6 +296,11 @@ hr {
   border: none;
   border-radius: 8px;
   padding: 1rem 2rem;
+  cursor: pointer;
+}
+
+.email-footer button:hover {
+  background: green;
 }
 
 .direitos {
