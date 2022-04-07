@@ -77,3 +77,57 @@ nav ul li a:hover {
 .cadastrar:hover{
   background: green;
 }
+
+#home {
+  width: 75rem;
+  height: auto;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4rem;
+  margin: 0 auto;
+  margin-bottom: 4rem;
+}
+
+.link-sobre {
+  color: var(--main-color);
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+#home h1 {
+  font-size: 3rem;
+  font-weight: 600;
+}
+
+.descricao {
+  width: 49rem;
+  font-size: 1.25rem;
+  text-align: center;
+}
+
+.metricas {
+  width: 75rem;
+  height: 17.5rem;
+  padding-top: 1rem;
+  margin: 0 auto;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.card {
+  width: 18.7rem;
+  padding: 0 2rem;
+}
+
+.card h1{
+  font-size: 3.7rem;
+  color: var(--main-color);
+  font-weight: 600;
+  margin-bottom: 0.7rem;
+}
+
+.card p {
+  font-size: 1rem;
+}
