@@ -4,6 +4,11 @@
   font-family: 'Inter', Arial, Helvetica, sans-serif;
 }
 
+:root {
+  --text-color: #667085;
+  --main-color: #8E2424;
+}
+
 h1, h2, h3, p {
   margin: 0;
   padding: 0;
@@ -34,7 +39,7 @@ nav ul li {
 nav ul li a{
   text-decoration: none;
   padding: 0.5rem;
-  color: #667085;
+  color: var(--text-color);
 }
 
 nav ul li a:hover {
@@ -49,7 +54,7 @@ nav ul li a:hover {
 
 .entrar {
   text-decoration: none;
-  color: #667085;
+  color: var(--text-color);
 }
 
 .entrar:hover {
@@ -62,7 +67,7 @@ nav ul li a:hover {
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background: #8E2424;
+  background: var(--main-color);
   color: #fff;
   border-radius: 8px;
   width: 112px;
