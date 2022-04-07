@@ -175,3 +175,39 @@ hr {
   color: var(--text-color);
   margin-bottom: 3rem;
 }
+
+.container-vagas {
+  width: 75rem;
+  display: flex;
+  justify-content: space-around;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.grid-vagas {
+  width: 25rem;
+  height: auto;
+  border: 2px #66708533 solid;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.grid-vagas h3 {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 3.5rem;
+}
+
+.vaga-1 {
+  padding: 1rem 2rem;
+}
+
+.vaga-1 h4 {
+  margin-bottom: 2rem;
+}
+
+.vaga-1 footer {
+  display: flex;
+  justify-content: space-around;
+  font-size: 1rem;
+}
