@@ -221,7 +221,7 @@ hr {
   padding-top: 4rem;
 }
 
-#container-2 p{
+#container-2 strong{
   font-size: 0.87rem;
   color: var(--main-color);
   font-weight: 500;
@@ -244,5 +244,5 @@ hr {
 
 .dev p {
   font-size: 0.87;
-  color: var(--text-color) !important;
+  color: var(--text-color);
 }
