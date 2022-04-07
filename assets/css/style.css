@@ -142,3 +142,36 @@ hr {
 .card p {
   font-size: 1rem;
 }
+
+#anuncio-vagas {
+  width: 75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 6rem;
+  margin: 0 auto;
+  gap: 1rem;
+}
+
+#anuncio-vagas a {
+  font-size: 0.87rem;
+  color: var(--main-color);
+  text-decoration: none;
+  font-weight: 500;
+}
+
+#anuncio-vagas a:hover {
+  text-decoration: underline;
+}
+
+#anuncio-vagas h1 {
+  font-size: 2.25rem;
+  font-weight: 600;
+}
+
+#anuncio-vagas p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-color);
+  margin-bottom: 3rem;
+}
