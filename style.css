@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  width: 90vw;
+  height: 100vh;
+  background: linear-gradient(rgb(4, 24, 52), rgb(10, 53, 106)) ;
+  background-repeat: no-repeat;
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  margin: 0 auto;
+  align-items: center;
+}
+
+main h1 {
+  color: #fff;
+}
+
+.descricao-desafio {
+  color: #fff;
+  text-align: center;
+  width: 40rem;
+  border: #fff 2px solid;
+  border-radius: 8px;
+  padding: 2rem;
+}
+
+.robo {
+  position: absolute;
+  right: 1rem;
+}
+
+.descricao-desafio a {
+  font-size: 1.5rem;
+  color: #fff;
+  padding: 0.5rem;
+}
+
+.descricao-desafio a:hover {
+  background: rgb(57, 172, 218);
+}
+
+.botao {
+  display: inline-block;
+  background: rgb(57, 172, 218);
+  text-decoration: none;
+  width: 10rem;
+  padding: 1rem 3rem;
+  border-radius: 8px;
+}
+
+.botao:hover{
+  background: rgb(16, 156, 79) !important;
+}
